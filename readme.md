@@ -1,0 +1,18 @@
+## **Project 1: Bikeshare Demand Prediction** ##
+- Worked on this project as part of my assigments while attending the Data Science course at General Assembly. Data was provided by the school. 
+- The data, collected hourly over a period of two years, gives information regarding the number of rented bikes, weather conditions, day of the week and seasons. 
+- The scope was to build a robust model to predict the demand of bike rentals. Both GBR and XGB regressors were used and results compared. 
+
+The following table shows the Root Mean Squared Logarithmic Error for the three methods used: 
+
+![Bikesharing_scores_table](https://user-images.githubusercontent.com/68543397/96701656-c0705780-1388-11eb-90a2-d6fe9b542f6f.jpg)
+
+**Comments**:\
+Adding a column with daly time shift gave much better scores, \
+Using ln(count) in the GBRegressor improved the accuracy of the predicive model,\
+Next: try XGBoost with ln(count)
+
+## Project 2: Healthcare Analytics II ##
+- Dataset from Kaggle (https://www.kaggle.com/nehaprabhavalkar/av-healthcare-analytics-ii) collects data regarding length of stays of patients in different hospitals and departments.
+- Being able to predict the length of stay has great importance in the optimisation of bed allocations, treatment plans, as well as minimisations of infection spreading.
+- XGB Classification method was applied to train the dataset.
