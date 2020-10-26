@@ -18,7 +18,7 @@ Next: try XGBoost with ln(count)
 - Method: XGBClassifier.
 **Model Performance:** \
 Confusion Matrix and Class Statistics
-[My image](https://github.com/lisadt/ESProjects/blob/main/Healthcare/ConfusionMatrix_HealthcareAnalyticsII.jpg)
+![Healthcare Analytics II - ConfusionMatrix](https://github.com/lisadt/ESProjects/blob/main/Healthcare/ConfusionMatrix_HealthcareAnalyticsII.jpg)
 
 **Comments**: 
 **To do**:
