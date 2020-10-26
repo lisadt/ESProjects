@@ -18,8 +18,8 @@ Next: try XGBoost with ln(count)
 - Method: XGBClassifier.
 **Model Performance:** \
 Confusion Matrix and Class Statistics
-<img src="https://github.com/lisadt/ESProjects/blob/main/Healthcare/ConfusionMatrix_HealthcareAnalyticsII.jpg" width="500" />
-<img src="https://github.com/lisadt/ESProjects/blob/main/Healthcare/HealthcareAnalyticsReport.jpg" width="500" />
+<img src="https://github.com/lisadt/ESProjects/blob/main/Healthcare/ConfusionMatrix_HealthcareAnalyticsII.jpg" width="450" />
+<img src="https://github.com/lisadt/ESProjects/blob/main/Healthcare/HealthcareAnalyticsReport.jpg" width="400" />
 
 **Comments**: \
 **To do**:
@@ -40,7 +40,7 @@ The workflow consisted of:
 *Classification Report*: while the model seems to work well for cluster “0” (precision 0.91 and recall 0.95), improvements are need for the other two classes where the recall values are 0.50, 0.60.
 
 <img src="https://github.com/lisadt/ESProjects/blob/main/OnlineRetail/ConfusionMatrix2.jpg" width="300" />
-<img src="https://github.com/lisadt/ESProjects/blob/main/OnlineRetail/ClassificationReport2.jpg" width="300" />
+<img src="https://github.com/lisadt/ESProjects/blob/main/OnlineRetail/ClassificationReport2.jpg" width="400" />
 
 **Ways to improve the model**: 
 - Try different Classification models
