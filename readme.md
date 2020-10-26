@@ -28,9 +28,9 @@ Confusion Matrix and Class Statistics
 - Look at way to deal with imbalanced data. 
 - Check the null values and different ways to replace them.
 
-## Project 3: Online Retail ##
-Data set from Kaggle: https://www.kaggle.com/vijayuv/onlineretail?select=OnlineRetail.csv .
-Data: Collection of online retail purchases made over a period of 12 months (+ 9 days). Fields: invoice number, stock code and description, quantity, invoice date and time of transaction, unit price and customer ID.
+## Project 3: Online Retail ## \
+Data set from Kaggle: https://www.kaggle.com/vijayuv/onlineretail?select=OnlineRetail.csv \
+Data: Collection of online retail purchases made over a period of 12 months (+ 9 days). Fields: invoice number, stock code and description, quantity, invoice date and time of transaction, unit price and customer ID. \
 The goal was to build a machine learning model to predict Customer Lifetime Value :
 The workflow consisted of:
 •	Data cleaning, analysis, and visualization
