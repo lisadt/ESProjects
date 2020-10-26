@@ -13,7 +13,7 @@ Using ln(count) in the GBRegressor improved the accuracy of the predicive model,
 Next: try XGBoost with ln(count)
 
 ## Project 2: Healthcare Analytics II ##
-- Dataset from Kaggle (https://www.kaggle.com/nehaprabhavalkar/av-healthcare-analytics-ii) collects data regarding length of stays of patients in different hospitals and departments.
+- Data set from Kaggle (https://www.kaggle.com/nehaprabhavalkar/av-healthcare-analytics-ii) collects data regarding length of stays of patients in different hospitals and departments.
 - Being able to predict the length of stay has grewidth=at importance in the optimisation of bed allocations, treatment plans, as well as minimisations of infection spreading.
 - Method: XGBClassifier.
 **Model Performance:** \
@@ -21,9 +21,12 @@ Confusion Matrix and Class Statistics
 <img src="https://github.com/lisadt/ESProjects/blob/main/Healthcare/ConfusionMatrix_HealthcareAnalyticsII.jpg" width="500" />
 <img src="https://github.com/lisadt/ESProjects/blob/main/Healthcare/HealthcareAnalyticsReport.jpg" width="500" />
 
-**Comments**: 
+**Comments**: \
 **To do**:
 - Try different models besides XGBClassifier. 
 - Improve feature engineering: look at other relatioships between fields that might be relevant to the problem. 
 - Look at way to deal with imbalanced data. 
 - Check the null values and different ways to replace them.
+
+## Project 3: Online Retail ##
+Data set from Kaggle: https://www.kaggle.com/vijayuv/onlineretail?select=OnlineRetail.csv
