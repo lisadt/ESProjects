@@ -37,7 +37,10 @@ The workflow consisted of:
 - Implementation of Customer Segmentation to better understand customer behavior. Customers were grouped into three tiers (high, medium and low value) using the Recency, Frequency and Monetary method (RFM). Segmentation is an important step in marketing as it helps the development of strategies to improve loyalty and lifetime value. The RFM Groups were created using KMeans Clustering 
 - A 3-month period dataset was selected to define RFM scores and the following 7-month period to calculate the customer LTV. The 3-month set was then used to train the model and predict the LTV \
 **Results**: \
-*Classification Report*: while the model seems to work well for cluster “0” (precision 0.91 and recall 0.95), improvements are need for the other two classes where the recall values are 0.50, 0.60. \
+*Classification Report*: while the model seems to work well for cluster “0” (precision 0.91 and recall 0.95), improvements are need for the other two classes where the recall values are 0.50, 0.60.
+
+<img src="https://github.com/lisadt/ESProjects/blob/main/OnlineRetail/ConfusionMatrix2.jpg" width="500" />
+<img src="https://github.com/lisadt/ESProjects/blob/main/OnlineRetail/ClassificationReport2.jpg" width="500" />
 
 **Ways to improve the model**: 
 - Try different Classification models
