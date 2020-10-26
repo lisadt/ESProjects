@@ -18,10 +18,11 @@ Next: try XGBoost with ln(count)
 - Method: XGBClassifier.
 **Model Performance:** \
 Confusion Matrix and Class Statistics
+[My image](https://github.com/lisadt/ESProjects/blob/main/Healthcare/ConfusionMatrix_HealthcareAnalyticsII.jpg)
 
-**Comments**: \
-**To do**:\
-- Try different models besides XGBClassifier. \
-- Improve feature engineering: look at other relatioships between fields that might be relevant to the problem. \
-- Look at way to deal with imbalanced data. \
+**Comments**: 
+**To do**:
+- Try different models besides XGBClassifier. 
+- Improve feature engineering: look at other relatioships between fields that might be relevant to the problem. 
+- Look at way to deal with imbalanced data. 
 - Check the null values and different ways to replace them.
