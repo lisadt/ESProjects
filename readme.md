@@ -14,11 +14,11 @@ Next: try XGBoost with ln(count)
 
 ## Project 2: Healthcare Analytics II ##
 - Dataset from Kaggle (https://www.kaggle.com/nehaprabhavalkar/av-healthcare-analytics-ii) collects data regarding length of stays of patients in different hospitals and departments.
-- Being able to predict the length of stay has great importance in the optimisation of bed allocations, treatment plans, as well as minimisations of infection spreading.
+- Being able to predict the length of stay has grewidth=at importance in the optimisation of bed allocations, treatment plans, as well as minimisations of infection spreading.
 - Method: XGBClassifier.
 **Model Performance:** \
 Confusion Matrix and Class Statistics
-![Healthcare Analytics II - ConfusionMatrix](https://github.com/lisadt/ESProjects/blob/main/Healthcare/ConfusionMatrix_HealthcareAnalyticsII.jpg)
+![Healthcare Analytics II - ConfusionMatrix](https://github.com/lisadt/ESProjects/blob/main/Healthcare/ConfusionMatrix_HealthcareAnalyticsII.jpg width="100" HEIGHT="100" )
 
 **Comments**: 
 **To do**:
