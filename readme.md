@@ -1,5 +1,5 @@
 ## **Project 1: Bikeshare Demand Prediction** ##
-- Worked on this project as part of my assigments while attending the Data Science course at General Assembly. Data was provided by the school. 
+- Worked on this project as part of my assigments while attending the Data Science course at General Assembly. Data source: https://www.kaggle.com/c/bike-sharing-demandwas. 
 - The data, collected hourly over a period of two years, gives information regarding the number of rented bikes, weather conditions, day of the week and seasons. 
 - The scope was to build a robust model to predict the demand of bike rentals. Both GBR and XGB regressors were used and results compared. 
 
@@ -15,4 +15,13 @@ Next: try XGBoost with ln(count)
 ## Project 2: Healthcare Analytics II ##
 - Dataset from Kaggle (https://www.kaggle.com/nehaprabhavalkar/av-healthcare-analytics-ii) collects data regarding length of stays of patients in different hospitals and departments.
 - Being able to predict the length of stay has great importance in the optimisation of bed allocations, treatment plans, as well as minimisations of infection spreading.
-- XGB Classification method was applied to train the dataset.
+- Method: XGBClassifier.
+**Model Performance:** \
+Confusion Matrix and Class Statistics
+
+**Comments**: \
+**To do**:\
+- Try different models besides XGBClassifier. \
+- Improve feature engineering: look at other relatioships between fields that might be relevant to the problem. \
+- Look at way to deal with imbalanced data. \
+- Check the null values and different ways to replace them.
