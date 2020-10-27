@@ -50,4 +50,4 @@ The RFM groups were created using KMeans Clustering
 - Parameter tuning on the model
 
 ## **Applications Folder** ## 
-Data sourve for the Movie Rating :  https://ai.stanford.edu/~amaas/data/sentiment/.
+Data source for the Movie Rating :  https://ai.stanford.edu/~amaas/data/sentiment/.
