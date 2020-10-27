@@ -1,5 +1,5 @@
 ## **Project 1: Bikeshare Demand Prediction** ##
-- Worked on this project as part of my assigments while attending the Data Science course at General Assembly. Data source: https://www.kaggle.com/c/bike-sharing-demandwas. 
+- Worked on this project as part of my assigments while attending the Data Science course at General Assembly. Data source: https://www.kaggle.com/c/bike-sharing-demand. 
 - The data, collected hourly over a period of two years, gives information regarding the number of rented bikes, weather conditions, day of the week and seasons. 
 - The scope was to build a robust model to predict the demand of bike rentals. Both GBR and XGB regressors were used and results compared. 
 
@@ -47,3 +47,6 @@ The workflow consisted of:
 - Apply feature engineering to add fields to the data 
 - Change the time interval used to create the training set
 - Parameter tuning on the model
+
+## **Applications Folder** ## \
+Data sourve for the Movie Rating :  https://ai.stanford.edu/~amaas/data/sentiment/.
