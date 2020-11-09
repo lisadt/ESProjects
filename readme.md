@@ -5,7 +5,7 @@
 
 The following table shows the Root Mean Squared Logarithmic Error for the three methods used: 
 
-![Bikesharing_scores_table](https://user-images.githubusercontent.com/68543397/96701656-c0705780-1388-11eb-90a2-d6fe9b542f6f.jpg)
+![Bikesharing_scores_table](https://github.com/lisadt/ESProjects/blob/main/Bikeshare/Bikesharing_scores_table.jpg)
 
 **Comments**:\
 Adding a column with daly time shift gave much better scores, \
