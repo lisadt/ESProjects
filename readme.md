@@ -35,14 +35,14 @@ The goal was to perform Customers Segmentation and predict Customer Lifetime Val
 The workflow consisted of: 
 - Data cleaning, analysis, and visualization.
 - Implementation of Customer Segmentation to better understand customer behavior. Customers were grouped into five tiers ("Lost", "At Risk", "Potential", "Frequent", "Best") using the Recency, Frequency and Monetary method (RFM). Segmentation is an important step in marketing for the development of strategies to improve loyalty and lifetime value. 
-The RFM groups were created using KMeans Clustering. \
-  ### * Workflow with lifetimes library models/utilities:* ###\
+The RFM groups were created using KMeans Clustering.
+  ### * Workflow with lifetimes library models/utilities:* 
 - Recency, Frequency, and Monetary Value from transactions data;
 - BetaGeoFitter Model to evaluate the probability of the customer being "Alive";
 - Expected future number of transactions;
 - Expected average sale per customer using the Gamma-Gamma model;
 - Prediction of customer's lifetime value;
-- Tested the model by dividing the dataset into calibration and holdout. \
+- Tested the model by dividing the dataset into calibration and holdout. 
 
 <img src="https://github.com/lisadt/ESProjects/blob/main/OnlineRetail/ConfusionMatrix2.jpg" width="300" />
 <img src="https://github.com/lisadt/ESProjects/blob/main/OnlineRetail/ClassificationReport2.jpg" width="400" />
