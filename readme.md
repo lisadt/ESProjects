@@ -33,14 +33,16 @@ Dataset from Kaggle: https://www.kaggle.com/vijayuv/onlineretail?select=OnlineRe
 Data: Collection of online retail purchases made over a period of 12 months (+ 9 days). Fields: invoice number, stock code and description, quantity, invoice date and time of transaction, unit price and customer ID. \
 The goal was to perform Customers Segmentation and predict Customer Lifetime Value : \
 The workflow consisted of: 
-- Data cleaning, analysis, and visualization 
+- Data cleaning, analysis, and visualization.
 - Implementation of Customer Segmentation to better understand customer behavior. Customers were grouped into five tiers ("Lost", "At Risk", "Potential", "Frequent", "Best") using the Recency, Frequency and Monetary method (RFM). Segmentation is an important step in marketing for the development of strategies to improve loyalty and lifetime value. 
 The RFM groups were created using KMeans Clustering
-The model also includes:
-- A basic Recency/Frequency analysis using the BetaGeoFitter from lifetimes library and visualization of the probability of the customer being "Alive";
-- Prediction of future number of transactions;
-- Expected average sale per customer using the GammaGamma function in lifetimes;
-- 
+  ### *lifetimes library models:* \
+- Recency, Frequency, and Monetary Value from transactions data;
+- BetaGeoFitter Model to evaluate the probability of the customer being "Alive";
+- Expected future number of transactions;
+- Expected average sale per customer using the Gamma-Gamma model;
+- Prediction of customer's lifetime value;
+- Test the model by dividing the dataset into calibration and holout and plot results.
 **Results**: \
 *Classification Report*: while the model seems to work well for cluster “0” (Low Value), improvements are needed for the other two classes where the recall values are 0.50, 0.60.
 
